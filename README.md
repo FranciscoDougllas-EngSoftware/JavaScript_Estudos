@@ -1,2 +1,2 @@
-# JavaScript_Estudos
- JavaScript_Estudos
+# JavaScript
+ Estudos e Desenvolvimento JavaScript
