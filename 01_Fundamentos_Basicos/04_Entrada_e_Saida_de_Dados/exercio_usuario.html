@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de Recrutas</h1>
+    <p>Escreva um programa em javascript que permita salvar informações de um recruta. As informações a serem salvas são:
+        o primeiro nome
+        o sobrenome
+        o campo de estudo
+        o ano de nascimento
+        Depois o programa deve exibir o nome completo do recruta, seu campo de estudo e sua idade (apenas baseada no ano de nascimento).</p>
+    <script>
+        let primeiroNome = prompt("Qual é o seu primeiro nome?");
+        let sobrenome = prompt("Qual é o seu sobrenome?");
+        let campoEstudo = prompt("Qual é o seu campo de estudo?");
+        let anoNascimento = prompt("Qual é o seu ano de nascimento?");
+        let idade = 2025 - anoNascimento;
+        let nomeCompleto = primeiroNome + " " + sobrenome;
+        console.log("Nome Completo: " + nomeCompleto);
+        console.log("Campo de Estudo: " + campoEstudo);
+        console.log("Idade: " + idade);
+    </script>
+</body>
+</html>
